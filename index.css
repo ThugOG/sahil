@@ -330,3 +330,318 @@ body {
     color:  rgb(59, 119, 240);
     font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+    .mainpg-comp-content {
+        margin: 50px 100px;
+        height: 500px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Open Sans";
+    }
+    
+    .greeting {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .intro {
+        width: 430px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .intro>span {
+        color: rgb(59, 119, 240);
+        font-weight: 700;
+    }
+    
+    .contact {
+        font-weight: 500;
+    }
+    
+    .contact>a {
+        text-decoration: none;
+        color: black;
+        border-bottom: 3px solid rgb(59, 119, 240);
+    }
+    
+    /* Background */
+    .background {
+        margin: 40vh 27vw 12vh 27vw;
+        display: flex;
+        width: 490px;
+        gap: 30px;
+        font-family: "Open Sans";
+    }
+    
+    .bg-left {
+        width: 150px;
+    }
+    
+    .bg-left>p {
+        font-size: 17px;
+        font-weight: 700;
+        color: rgb(59, 119, 240)
+    }
+    
+    .bg-right>p>span {
+        font-weight: 700;
+    }
+    
+    .bg-right {
+        width: 80vw;
+        height:350px;
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .bg-right>button {
+        align-self: start;
+        color: black;
+        background-color: transparent;
+        border: none;
+        font-weight: 700;
+        border-bottom: 3px solid rgb(59, 119, 240);
+    }
+    
+    .skills {
+        margin: 10vh 27vw;
+        display: flex;
+        width: 550px;
+        gap: 80px;
+        font-family: "Open Sans";
+        border: 2px solid red;
+    }
+    
+    .sk-left {
+        width: 150px;
+        /* border: 2px solid red; */
+    }
+    
+    .sk-left>p {
+        display: flex;
+        justify-content: end;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-weight: 700;
+        color: rgb(59, 119, 240)
+    }
+    
+    /*
+    .sk-right > p > span{
+        font-weight: 700;
+    } */
+    .sk-right {
+        /* border: 2px solid red; */
+        width: 600px;
+        height: 260px;
+        display: flex;
+        font-size: 15px;
+        flex-direction: right;
+        flex-wrap: wrap;
+    }
+    
+    .single-img {
+        width: 115px;
+    }
+    
+    .tech-logo {
+        height: 44px;
+        width: 44px;
+        transition: all 0.5s ease;
+    }
+    
+    .tech-logo:hover {
+        height: 54px;
+        width: 54px;
+        cursor: pointer;
+    }
+    
+    /* Projects */
+    .projects {
+        margin: 10vh 27vw;
+        display: flex;
+        gap: 40px;
+        font-family: "Open Sans";
+        border: 2px solid red;
+        width: 630px;
+    }
+    
+    .pj-left {
+        width: 150px;
+        border: 2px solid red;
+
+    }
+    
+    .pj-left>p {
+        display: flex;
+        justify-content: end;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-weight: 700;
+        color: rgb(59, 119, 240)
+    }
+    
+    .pj-right {
+        border: 2px solid red;
+        /* width: 550px; */
+        /* width: max-content; */
+        height: max-content;
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+    
+        gap: 50px;
+    }
+    
+    .pj-right>p {
+        font-weight: 600;
+    }
+    
+    .card {
+        /* width: 550px; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .card-head {
+        font-weight: 700;
+        font-size: 17px;
+    }
+    
+    .button-list {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .button-list>div {
+        height: max-content;
+        padding: 5px;
+        width: max-content;
+        border: 2px solid rgb(59, 119, 240);
+        border-radius: 5px;
+        background-color: rgb(184, 232, 255);
+        color: rgb(59, 119, 240);
+        font-weight: 600;
+    }
+    
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    
+    }
+    
+    .github {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .github>a {
+        text-decoration: none;
+        height: max-content;
+        padding: 5px;
+        width: max-content;
+        border-radius: 5px;
+        border: none;
+        background-color: transparent;
+        color: rgb(59, 119, 240);
+        font-weight: 600;
+    }
+    
+    .live-project {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .live-project>a {
+        text-decoration: none;
+    
+        height: max-content;
+        padding: 5px;
+        width: max-content;
+        border-radius: 5px;
+        border: none;
+        background-color: transparent;
+        color: rgb(59, 119, 240);
+        font-weight: 600;
+    }
+    
+    .footer {
+        padding: 40px;
+        font-family: "Open Sans";
+        border: 2px solid red;
+        display: flex;
+        width: 738px;
+        justify-content: space-between;
+    }
+    
+    .footer_left {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .footer_right {
+        display: flex;
+        gap: 30px;
+        font-weight: 600;
+    }
+    
+    .footer_right>a {
+        width: 100px;
+        height: 40px;
+        color: rgb(59, 119, 240);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .live_stats {
+        margin: 10vh 27vw;
+        display: flex;
+        width: 490px;
+        gap: 40px;
+        font-family: "Open Sans";
+    }
+    
+    .live_stats_left {
+        width: 150px;
+    }
+    
+    .live_stats_left>p {
+        display: flex;
+        justify-content: end;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-weight: 700;
+        color: rgb(59, 119, 240)
+    }
+    
+    .live_stats_right {
+        width: 600px;
+        height: 200px;
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        align-items: start;
+        gap:10px;
+    }
+    .live_stats_right > p > span{
+        font-weight: 700;
+        color: black;
+        transition: all 0.4s ease;
+    }
+    .live_stats_right > p > span:hover{
+        border-bottom: 4px solid  rgb(21, 84, 210);
+    }
+    .live_stats_right > p{
+        color:  rgb(59, 119, 240);
+        font-weight: 600;
+    }
+  }
