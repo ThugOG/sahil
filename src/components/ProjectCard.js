@@ -10,8 +10,8 @@ const ProjectCard = ({ name, description, technologies, github_link, live_link }
       </div>
       <p>{description}</p>
       <div className="button-list">
-        {technologies.map((single) => {
-          return <div>{single}</div>;
+        {technologies.map((single,index) => {
+          return <div key={index}>{single}</div>;
         })}
       </div>
     </div>

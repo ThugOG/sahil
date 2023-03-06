@@ -6,8 +6,8 @@ const Projects = () => {
             <div className="pj-left"><p>Projects</p></div>
             <div className="pj-right">
                 {
-                   projects.map((single)=>{
-                        return <ProjectCard {...single}/>
+                   projects.map((single, index)=>{
+                        return <ProjectCard key={index} {...single}/>
                    }) 
                 }
                 <p>Check my Other Project on github</p>

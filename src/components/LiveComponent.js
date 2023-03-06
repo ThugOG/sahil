@@ -4,7 +4,7 @@ const LiveComponent = () => {
     const getData = async() =>{
         const data = await fetch("https://leetcode-stats-api.herokuapp.com/sahil643");
         const json = await data.json();
-        console.log(json)
+        // console.log(json)
         setLCData(json)
     }
     useEffect(()=>{

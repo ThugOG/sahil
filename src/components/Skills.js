@@ -5,8 +5,8 @@ const Skills = () => {
             <div className="sk-left"><p>Skills</p></div>
             <div className="sk-right">
                 {
-                    logo_url.map((url)=>{
-                        return <div className="single-img"><img className="tech-logo" src={url}></img></div>
+                    logo_url.map((url, index)=>{
+                        return <div key={index} className="single-img"><img className="tech-logo" src={url}></img></div>
                     })
                 }
             </div>
