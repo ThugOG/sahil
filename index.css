@@ -369,7 +369,7 @@ body {
     
     /* Background */
     .background {
-        margin: 40vh 27vw 12vh 27vw;
+        margin: 40vh 20px;
         display: flex;
         flex-direction: column;
         width: 490px;
@@ -410,7 +410,7 @@ body {
     }
     
     .skills {
-        margin: 10vh 27vw;
+        margin: 40vh 20px;
         display: flex;
         flex-direction: column;
         width: 550px;
@@ -426,7 +426,7 @@ body {
     
     .sk-left>p {
         display: flex;
-        justify-content: end;
+        justify-content: start;
         letter-spacing: 2px;
         font-size: 17px;
         font-weight: 700;
@@ -439,7 +439,7 @@ body {
     } */
     .sk-right {
         /* border: 2px solid red; */
-        width: 600px;
+        width: 380px;
         height: 260px;
         display: flex;
         font-size: 15px;
@@ -465,12 +465,12 @@ body {
     
     /* Projects */
     .projects {
-        margin: 10vh 27vw;
+        margin: 40vh 20px;
         display: flex;
         gap: 40px;
         font-family: "Open Sans";
         flex-direction: column;
-        /* border: 2px solid red; */
+        border: 2px solid red;
         width: 630px;
     }
     
@@ -482,7 +482,7 @@ body {
     
     .pj-left>p {
         display: flex;
-        justify-content: end;
+        justify-content: start;
         letter-spacing: 2px;
         font-size: 17px;
         font-weight: 700;
@@ -497,7 +497,7 @@ body {
         display: flex;
         font-size: 15px;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     
         gap: 50px;
     }
@@ -580,9 +580,9 @@ body {
     .footer {
         padding: 40px;
         font-family: "Open Sans";
-        /* border: 2px solid red; */
+        border: 2px solid red;
         display: flex;
-        width: 738px;
+        width: 390px;
         justify-content: space-between;
     }
     
