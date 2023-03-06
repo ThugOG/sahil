@@ -386,7 +386,8 @@ body {
     .bg-left>p {
         font-size: 17px;
         font-weight: 700;
-        color: rgb(59, 119, 240)
+        color: rgb(59, 119, 240);
+        align-self: center;
     }
     
     .bg-right>p>span {
@@ -400,6 +401,8 @@ body {
         font-size: 15px;
         flex-direction: column;
         justify-content: space-between;
+        align-self: center;
+
     }
     
     .bg-right>button {
@@ -447,10 +450,15 @@ body {
         font-size: 15px;
         flex-direction: right;
         flex-wrap: wrap;
+        align-self: center;
+        align-content: space-between;
+        justify-content: center;
     }
     
     .single-img {
         width: 115px;
+        display: flex;
+        justify-content: center;
     }
     
     .tech-logo {
