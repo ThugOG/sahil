@@ -371,6 +371,7 @@ body {
     .background {
         margin: 40vh 27vw 12vh 27vw;
         display: flex;
+        flex-direction: column;
         width: 490px;
         gap: 30px;
         font-family: "Open Sans";
@@ -411,6 +412,7 @@ body {
     .skills {
         margin: 10vh 27vw;
         display: flex;
+        flex-direction: column;
         width: 550px;
         gap: 80px;
         font-family: "Open Sans";
@@ -467,6 +469,7 @@ body {
         display: flex;
         gap: 40px;
         font-family: "Open Sans";
+        flex-direction: column;
         /* border: 2px solid red; */
         width: 630px;
     }
