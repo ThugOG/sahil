@@ -334,7 +334,7 @@ body {
     .mainpg-comp-content {
         margin: 50px 20px;
         height: 500px;
-        width: 370px;
+        width: 367px;
         border: 2px solid red;
         display: flex;
         flex-direction: column;
@@ -374,7 +374,7 @@ body {
         border: 2px solid red;
         display: flex;
         flex-direction: column;
-        width: 370px;
+        width: 367px;
         gap: 30px;
         font-family: "Open Sans";
     }
@@ -415,7 +415,7 @@ body {
         margin: 40vh 20px;
         display: flex;
         flex-direction: column;
-        width: 360px;
+        width: 367px;
         gap: 80px;
         font-family: "Open Sans";
         /* border: 2px solid red; */
@@ -473,7 +473,7 @@ body {
         font-family: "Open Sans";
         flex-direction: column;
         border: 2px solid red;
-        width: 370px;
+        width: 367px;
     }
     
     .pj-left {
@@ -495,7 +495,7 @@ body {
         /* border: 2px solid red; */
         /* width: 550px; */
         /* width: max-content; */
-        width: 370px;
+        width: 367px;
         height: max-content;
         display: flex;
         font-size: 15px;
@@ -617,7 +617,7 @@ body {
         margin: 40vh 20px;
         display: flex;
         border: 2px solid red;
-        width: 370px;
+        width: 367px;
         gap: 40px;
         font-family: "Open Sans";
     }
@@ -637,7 +637,7 @@ body {
     
     .live_stats_right {
         width: 600px;
-        height: 200px;
+        height: max-content;
         display: flex;
         font-size: 15px;
         flex-direction: column;
