@@ -335,7 +335,7 @@ body {
         margin: 50px 20px;
         height: 500px;
         width: 367px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -371,7 +371,7 @@ body {
     /* Background */
     .background {
         margin: 40vh 20px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         width: 367px;
@@ -472,7 +472,7 @@ body {
         gap: 40px;
         font-family: "Open Sans";
         flex-direction: column;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 367px;
     }
     
@@ -584,7 +584,7 @@ body {
     
     .footer {
         font-family: "Open Sans";
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         width: 390px;
         gap: 10px;
@@ -594,7 +594,7 @@ body {
     
     .footer_left {
         font-weight: 600;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         font-size: 15px;
     }
     
@@ -602,7 +602,7 @@ body {
         display: flex;
         gap: 8px;
         font-weight: 600;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     
     .footer_right>a {
@@ -616,7 +616,7 @@ body {
     .live_stats {
         margin: 40vh 20px;
         display: flex;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 367px;
         gap: 40px;
         font-family: "Open Sans";
