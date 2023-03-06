@@ -414,7 +414,7 @@ body {
         width: 550px;
         gap: 80px;
         font-family: "Open Sans";
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     
     .sk-left {
