@@ -334,7 +334,8 @@ body {
     .mainpg-comp-content {
         margin: 50px 20px;
         height: 500px;
-        width: 600px;
+        width: 370px;
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -370,9 +371,10 @@ body {
     /* Background */
     .background {
         margin: 40vh 20px;
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
-        width: 490px;
+        width: 370px;
         gap: 30px;
         font-family: "Open Sans";
     }
@@ -413,7 +415,7 @@ body {
         margin: 40vh 20px;
         display: flex;
         flex-direction: column;
-        width: 550px;
+        width: 360px;
         gap: 80px;
         font-family: "Open Sans";
         /* border: 2px solid red; */
@@ -471,7 +473,7 @@ body {
         font-family: "Open Sans";
         flex-direction: column;
         border: 2px solid red;
-        width: 630px;
+        width: 370px;
     }
     
     .pj-left {
@@ -493,6 +495,7 @@ body {
         /* border: 2px solid red; */
         /* width: 550px; */
         /* width: max-content; */
+        width: 370px;
         height: max-content;
         display: flex;
         font-size: 15px;
@@ -508,6 +511,7 @@ body {
     
     .card {
         /* width: 550px; */
+        width: 370px;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -521,6 +525,7 @@ body {
     .button-list {
         display: flex;
         gap: 10px;
+        flex-wrap: wrap;
     }
     
     .button-list>div {
@@ -578,37 +583,41 @@ body {
     }
     
     .footer {
-        padding: 40px;
         font-family: "Open Sans";
         border: 2px solid red;
         display: flex;
         width: 390px;
-        justify-content: space-between;
+        gap: 10px;
+        /* justify-content: space-between; */
+
     }
     
     .footer_left {
         font-weight: 600;
+        border: 2px solid red;
         font-size: 15px;
     }
     
     .footer_right {
         display: flex;
-        gap: 30px;
+        gap: 8px;
         font-weight: 600;
+        border: 2px solid red;
     }
     
     .footer_right>a {
-        width: 100px;
-        height: 40px;
+        width: max-content;
+        /* height: 40px; */
         color: rgb(59, 119, 240);
         font-weight: 600;
         text-decoration: none;
     }
     
     .live_stats {
-        margin: 10vh 27vw;
+        margin: 40vh 20px;
         display: flex;
-        width: 490px;
+        border: 2px solid red;
+        width: 370px;
         gap: 40px;
         font-family: "Open Sans";
     }
