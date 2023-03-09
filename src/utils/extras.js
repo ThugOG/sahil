@@ -72,6 +72,6 @@ export const projects = [
       "NodeJS"
     ],
     github_link: "https://github.com/Blacklight34/FrontendMentor",
-    live_link: "ai-dall-e-2-0-dzx3.vercel.app"
+    live_link: "https://ai-dall-e-2-0-dzx3.vercel.app"
   }
 ];
