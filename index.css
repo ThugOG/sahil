@@ -192,10 +192,11 @@ body {
 }
 
 .card {
-    width: 500px;
+    width: 520px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* border: 2px solid red; */
 }
 
 .card-head {
@@ -205,6 +206,7 @@ body {
 
 .button-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -316,20 +318,24 @@ body {
     font-size: 15px;
     flex-direction: column;
     align-items: start;
-    gap:10px;
+    gap: 10px;
 }
-.live_stats_right > p > span{
+
+.live_stats_right>p>span {
     font-weight: 700;
     color: black;
     transition: all 0.4s ease;
 }
-.live_stats_right > p > span:hover{
-    border-bottom: 4px solid  rgb(21, 84, 210);
+
+.live_stats_right>p>span:hover {
+    border-bottom: 4px solid rgb(21, 84, 210);
 }
-.live_stats_right > p{
-    color:  rgb(59, 119, 240);
+
+.live_stats_right>p {
+    color: rgb(59, 119, 240);
     font-weight: 600;
 }
+
 @media only screen and (max-width: 600px) {
     .mainpg-comp-content {
         margin: 50px 20px;
@@ -341,33 +347,33 @@ body {
         justify-content: space-between;
         font-family: "Open Sans";
     }
-    
+
     .greeting {
         font-weight: 600;
         font-size: 24px;
     }
-    
+
     .intro {
         width: 380px;
         font-size: 24px;
         font-weight: 500;
     }
-    
+
     .intro>span {
         color: rgb(59, 119, 240);
         font-weight: 700;
     }
-    
+
     .contact {
         font-weight: 500;
     }
-    
+
     .contact>a {
         text-decoration: none;
         color: black;
         border-bottom: 3px solid rgb(59, 119, 240);
     }
-    
+
     /* Background */
     .background {
         margin: 40vh 20px;
@@ -378,25 +384,25 @@ body {
         gap: 30px;
         font-family: "Open Sans";
     }
-    
+
     .bg-left {
         width: 150px;
     }
-    
+
     .bg-left>p {
         font-size: 17px;
         font-weight: 700;
         color: rgb(59, 119, 240);
         align-self: center;
     }
-    
+
     .bg-right>p>span {
         font-weight: 700;
     }
-    
+
     .bg-right {
         width: 80vw;
-        height:350px;
+        height: 350px;
         display: flex;
         font-size: 15px;
         flex-direction: column;
@@ -404,7 +410,7 @@ body {
         align-self: center;
 
     }
-    
+
     .bg-right>button {
         align-self: start;
         color: black;
@@ -413,7 +419,7 @@ body {
         font-weight: 700;
         border-bottom: 3px solid rgb(59, 119, 240);
     }
-    
+
     .skills {
         margin: 40vh 20px;
         display: flex;
@@ -423,12 +429,12 @@ body {
         font-family: "Open Sans";
         /* border: 2px solid red; */
     }
-    
+
     .sk-left {
         width: 150px;
         /* border: 2px solid red; */
     }
-    
+
     .sk-left>p {
         display: flex;
         justify-content: start;
@@ -437,7 +443,7 @@ body {
         font-weight: 700;
         color: rgb(59, 119, 240)
     }
-    
+
     /*
     .sk-right > p > span{
         font-weight: 700;
@@ -454,25 +460,25 @@ body {
         align-content: space-between;
         justify-content: center;
     }
-    
+
     .single-img {
         width: 115px;
         display: flex;
         justify-content: center;
     }
-    
+
     .tech-logo {
         height: 44px;
         width: 44px;
         transition: all 0.5s ease;
     }
-    
+
     .tech-logo:hover {
         height: 54px;
         width: 54px;
         cursor: pointer;
     }
-    
+
     /* Projects */
     .projects {
         margin: 40vh 20px;
@@ -483,13 +489,13 @@ body {
         /* border: 2px solid red; */
         width: 367px;
     }
-    
+
     .pj-left {
         width: 150px;
         /* border: 2px solid red; */
 
     }
-    
+
     .pj-left>p {
         display: flex;
         justify-content: start;
@@ -498,7 +504,7 @@ body {
         font-weight: 700;
         color: rgb(59, 119, 240)
     }
-    
+
     .pj-right {
         /* border: 2px solid red; */
         /* width: 550px; */
@@ -509,33 +515,34 @@ body {
         font-size: 15px;
         flex-direction: column;
         align-items: start;
-    
+
         gap: 50px;
     }
-    
+
     .pj-right>p {
         font-weight: 600;
     }
-    
+
     .card {
         /* width: 550px; */
         width: 370px;
         display: flex;
         flex-direction: column;
+        /* border: 13px solid red; */
         gap: 10px;
     }
-    
+
     .card-head {
         font-weight: 700;
         font-size: 17px;
     }
-    
+
     .button-list {
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
     }
-    
+
     .button-list>div {
         height: max-content;
         padding: 5px;
@@ -546,20 +553,20 @@ body {
         color: rgb(59, 119, 240);
         font-weight: 600;
     }
-    
+
     .heading {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 10px;
-    
+
     }
-    
+
     .github {
         background-color: transparent;
         border: none;
     }
-    
+
     .github>a {
         text-decoration: none;
         height: max-content;
@@ -571,15 +578,15 @@ body {
         color: rgb(59, 119, 240);
         font-weight: 600;
     }
-    
+
     .live-project {
         background-color: transparent;
         border: none;
     }
-    
+
     .live-project>a {
         text-decoration: none;
-    
+
         height: max-content;
         padding: 5px;
         width: max-content;
@@ -589,7 +596,7 @@ body {
         color: rgb(59, 119, 240);
         font-weight: 600;
     }
-    
+
     .footer {
         font-family: "Open Sans";
         /* border: 2px solid red; */
@@ -599,20 +606,20 @@ body {
         /* justify-content: space-between; */
 
     }
-    
+
     .footer_left {
         font-weight: 600;
         /* border: 2px solid red; */
         font-size: 15px;
     }
-    
+
     .footer_right {
         display: flex;
         gap: 8px;
         font-weight: 600;
         /* border: 2px solid red; */
     }
-    
+
     .footer_right>a {
         width: max-content;
         /* height: 40px; */
@@ -620,7 +627,7 @@ body {
         font-weight: 600;
         text-decoration: none;
     }
-    
+
     .live_stats {
         margin: 40vh 20px;
         display: flex;
@@ -629,11 +636,11 @@ body {
         gap: 40px;
         font-family: "Open Sans";
     }
-    
+
     .live_stats_left {
         width: 150px;
     }
-    
+
     .live_stats_left>p {
         display: flex;
         justify-content: end;
@@ -642,7 +649,7 @@ body {
         font-weight: 700;
         color: rgb(59, 119, 240)
     }
-    
+
     .live_stats_right {
         width: 600px;
         height: max-content;
@@ -650,18 +657,21 @@ body {
         font-size: 15px;
         flex-direction: column;
         align-items: start;
-        gap:10px;
+        gap: 10px;
     }
-    .live_stats_right > p > span{
+
+    .live_stats_right>p>span {
         font-weight: 700;
         color: black;
         transition: all 0.4s ease;
     }
-    .live_stats_right > p > span:hover{
-        border-bottom: 4px solid  rgb(21, 84, 210);
+
+    .live_stats_right>p>span:hover {
+        border-bottom: 4px solid rgb(21, 84, 210);
     }
-    .live_stats_right > p{
-        color:  rgb(59, 119, 240);
+
+    .live_stats_right>p {
+        color: rgb(59, 119, 240);
         font-weight: 600;
     }
-  }
+}

@@ -56,4 +56,22 @@ export const projects = [
     github_link: "https://github.com/Blacklight34/FrontendMentor",
     live_link: null
   },
+  {
+    name: "DALL-E 2.0",
+    description:
+      "Wierd Image generator",
+    technologies: [
+      "Javascript",
+      "React",
+      "Redux",
+      "React-Router",
+      "API",
+      "React/Toolkit",
+      "Express",
+      "Mongoose",
+      "NodeJS"
+    ],
+    github_link: "https://github.com/Blacklight34/FrontendMentor",
+    live_link: null
+  }
 ];
