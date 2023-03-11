@@ -73,5 +73,23 @@ export const projects = [
     ],
     github_link: "https://github.com/Blacklight34/FrontendMentor",
     live_link: "https://ai-dall-e-2-0-dzx3.vercel.app"
+  },
+  {
+    name: "PNS",
+    description:
+      "Polygon name service. In progress soon new works coming",
+    technologies: [
+      "Javascript",
+      "React",
+      "Redux",
+      "React-Router",
+      "API",
+      "React/Toolkit",
+      "Express",
+      "openai",
+      "NodeJS",
+    ],
+    github_link: "https://github.com/Blacklight34/ens_2.0_gpt3",
+    live_link: "https://ens-2-0-gpt3.vercel.app/"
   }
 ];
