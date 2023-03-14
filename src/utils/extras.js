@@ -88,6 +88,10 @@ export const projects = [
       "Express",
       "openai",
       "NodeJS",
+      "Vercel",
+      "Render",
+      "ThirdWeb",
+      "Polygon Mumbai"
     ],
     github_link: "https://github.com/Blacklight34/ens_2.0_gpt3",
     live_link: "https://ens-2-0-gpt3.vercel.app/"
