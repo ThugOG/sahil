@@ -95,5 +95,27 @@ export const projects = [
     ],
     github_link: "https://github.com/Blacklight34/ens_2.0_gpt3",
     live_link: "https://ens-2-0-gpt3.vercel.app/"
+  },
+  {
+    name: "EverythingGPT",
+    description:
+      "This is a web-based chat application that uses the OpenAI API to generate responses to user messages.",
+    technologies: [
+      "Javascript",
+      "React",
+      "Redux",
+      "React-Router",
+      "API",
+      "React/Toolkit",
+      "Express",
+      "openai",
+      "NodeJS",
+      "Vercel",
+      "Render",
+      "Google Cloud Platform",
+      "Dalle 2.0"
+    ],
+    github_link: "https://github.com/Blacklight34/everything_gpt",
+    live_link: "https://black-rhino-382411.de.r.appspot.com/"
   }
 ];
