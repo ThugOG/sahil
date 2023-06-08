@@ -97,13 +97,14 @@ body {
     justify-content: space-between;
 }
 
-.bg-right>button {
+.bg-right>a {
     align-self: start;
     color: black;
     background-color: transparent;
     border: none;
     font-weight: 700;
     border-bottom: 3px solid rgb(59, 119, 240);
+    text-decoration: none;
 }
 
 .skills {
@@ -411,7 +412,7 @@ body {
 
     }
 
-    .bg-right>button {
+    .bg-right>a {
         align-self: start;
         color: black;
         background-color: transparent;
