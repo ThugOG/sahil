@@ -16,7 +16,7 @@ const LiveComponent = () => {
         <p>Leetcode Stats</p>
       </div>
       <div className="live_stats_right">
-        <p><span>Username:</span> sahil643</p>
+        <p><span>Username:</span> 0xItachi</p>
         <p><span>Ranking:</span> {lcData.ranking}</p>
         <p><span>Total Solved:</span> {lcData.totalSolved}</p>
         {/* <p><span>Total Easy Solved:</span> {lcData.easySolved} / {lcData.totalEasy}</p>
