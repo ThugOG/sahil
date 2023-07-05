@@ -336,6 +336,15 @@ body {
     color: rgb(59, 119, 240);
     font-weight: 600;
 }
+.btn-view-more{
+    align-self: start;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    border-bottom: 3px solid rgb(59, 119, 240);
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 600px) {
     .mainpg-comp-content {
