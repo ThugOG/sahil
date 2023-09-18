@@ -21,7 +21,7 @@ const Projects = () => {
                         }
                    }) 
                 }
-                <button className="btn-view-more" onClick={handleClick}>Show More</button>
+                <button className="btn-view-more" onClick={handleClick}>{(showAll)?"Show Less": "Show More"}</button>
             </div>
         </div>
     )
