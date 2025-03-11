@@ -40,23 +40,8 @@ export const projects = [
       "API",
       "React/Toolkit",
     ],
-    github_link: "https://github.com/Blacklight34/swigato",
+    github_link: "https://github.com/ThugOG/swigato",
     live_link: "https://swigato-55ps.vercel.app"
-  },
-  {
-    name: "Fontend Mentor Challenges",
-    description:
-      "Just Challenges completed by me in accord to FRONTEND MENTOR.",
-    technologies: [
-      "Javascript",
-      "React",
-      "Redux",
-      "React-Router",
-      "API",
-      "React/Toolkit",
-    ],
-    github_link: "https://github.com/Blacklight34/FrontendMentor",
-    live_link: null
   },
   {
     name: "DALL-E 2.0",
@@ -73,30 +58,8 @@ export const projects = [
       "Mongoose",
       "NodeJS"
     ],
-    github_link: "https://github.com/Blacklight34/FrontendMentor",
+    github_link: "https://github.com/ThugOG/FrontendMentor",
     live_link: "https://ai-dall-e-2-0-dzx3.vercel.app"
-  },
-  {
-    name: "PNS",
-    description:
-      "Polygon name service. In progress soon new works coming",
-    technologies: [
-      "Javascript",
-      "React",
-      "Redux",
-      "React-Router",
-      "API",
-      "React/Toolkit",
-      "Express",
-      "openai",
-      "NodeJS",
-      "Vercel",
-      "Render",
-      "ThirdWeb",
-      "Polygon Mumbai"
-    ],
-    github_link: "https://github.com/Blacklight34/ens_2.0_gpt3",
-    live_link: "https://ens-2-0-gpt3.vercel.app/"
   },
   {
     name: "EverythingGPT",
@@ -117,7 +80,7 @@ export const projects = [
       "Google Cloud Platform",
       "Dalle 2.0"
     ],
-    github_link: "https://github.com/Blacklight34/everything_gpt",
+    github_link: "https://github.com/ThugOG/everything_gpt",
     live_link: "https://black-rhino-382411.de.r.appspot.com/"
   }
 ];
