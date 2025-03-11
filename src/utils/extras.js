@@ -12,9 +12,9 @@ export const logo_url = [
 ];
 export const projects = [
   {
-    name: "AnimeFlix",
+    name: "Dex Aggregator",
     description:
-      "A webapp to check latest anime and checkout information and many more features to be added. It is the project I am currently working on",
+      "A DEX aggregator is a platform that sources liquidity from multiple decentralized exchanges to provide users with the best possible trading prices and minimal slippage.",
     technologies: [
       "Javascript",
       "React",
@@ -22,9 +22,11 @@ export const projects = [
       "React-Router",
       "API",
       "React/Toolkit",
+      "web3js",
+      "DA-Celestia"
     ],
-    github_link: "https://github.com/Blacklight34/crncyrl",
-    live_link: "https://crncyrl.vercel.app"
+    github_link: "https://github.com/ThugOG/Aggregator",
+    live_link: "https://layer-n-landing-page.vercel.app/"
   },
   {
     name: "Swigato",
