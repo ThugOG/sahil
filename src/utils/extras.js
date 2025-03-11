@@ -60,27 +60,5 @@ export const projects = [
     ],
     github_link: "https://github.com/ThugOG/FrontendMentor",
     live_link: "https://ai-dall-e-2-0-dzx3.vercel.app"
-  },
-  {
-    name: "EverythingGPT",
-    description:
-      "This is a web-based chat application that uses the OpenAI API to generate responses to user messages.",
-    technologies: [
-      "Javascript",
-      "React",
-      "Redux",
-      "React-Router",
-      "API",
-      "React/Toolkit",
-      "Express",
-      "openai",
-      "NodeJS",
-      "Vercel",
-      "Render",
-      "Google Cloud Platform",
-      "Dalle 2.0"
-    ],
-    github_link: "https://github.com/ThugOG/everything_gpt",
-    live_link: "https://black-rhino-382411.de.r.appspot.com/"
   }
 ];
